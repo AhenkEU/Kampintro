@@ -6,7 +6,8 @@ namespace OOP
 {
     class ProductManager
     {
-        public void Add( Product product) { //Ürün ekleme operasyonu
+        public void Add(Product product)
+        { //Ürün ekleme operasyonu
 
             Console.WriteLine(product.ProductName + " eklendi.");
         }
@@ -16,4 +17,5 @@ namespace OOP
             Console.WriteLine(product.ProductName + " Güncellendi.");
         }
 
+    }
 }
